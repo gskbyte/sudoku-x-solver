@@ -13,27 +13,33 @@ It solves an array with 81 positions representing a 9x9 matrix using the typical
 How to compile and execute it
 -----------------------------
 
-`$ make sudokux
-$ ./sudokux <representation>`
+```
+$ make sudokux  
+$ ./sudokux <representation>
+```
 
 The program returns a plain string with the solved sudoku. For example (0=empty cell):
 
 We want to solve the following sudoku-x (this is an easy one):
 
-`9.. .51 73.  
+```
+9.. .51 73.  
 1.7 398 2.5  
 5.. .76 091  
-.  
+
 81. 724 35.  
 2.. 165 ..7  
-.75 983 .12  
-.  
+.75 983 .12 
+
 .21 537 ...  
 758 649 123  
-39. 812 57.`
+39. 812 57.
+```
 
-`$ ./sudokux 900051730107398205500076091810724350200165007075983012021537000758649123390812570
-962451738147398265538276491816724359293165847475983612621537584758649123394812572`
+```
+$ ./sudokux 900051730107398205500076091810724350200165007075983012021537000758649123390812570
+962451738147398265538276491816724359293165847475983612621537584758649123394812572
+```
 
 License
 -------
